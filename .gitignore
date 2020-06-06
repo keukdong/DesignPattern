@@ -1,0 +1,14 @@
+## git ignore ##
+
+*.suo
+*.db
+*.ipch
+*.exe
+*.VC
+*.ilk
+*.1.*
+*.obj
+*.pdb
+*.log
+*.lastbuildstate
+*.idb

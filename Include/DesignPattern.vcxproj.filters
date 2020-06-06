@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01.Prototype">
+      <UniqueIdentifier>{cf557f86-f037-4fbd-bb81-dda061d536c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.DataLocality">
+      <UniqueIdentifier>{cbde881b-eda4-423e-929e-0f6dfe2e7689}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype\CMonster.cpp">
+      <Filter>01.Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype\main_prototype.cpp">
+      <Filter>01.Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype\CSpawner.cpp">
+      <Filter>01.Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="Prototype\CDemon.cpp">
+      <Filter>01.Prototype</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Prototype\CMonster.h">
+      <Filter>01.Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype\CSpawner.h">
+      <Filter>01.Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype\CDemon.h">
+      <Filter>01.Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Prototype\DesignPattern.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
